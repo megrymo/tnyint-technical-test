@@ -1,0 +1,33 @@
+{
+  "name": "tnyint-technical-test-master",
+  "version": "1.0.0",
+  "description": "technical test for the new yorker interactive team",
+  "scripts": {
+    "test": "echo \"error no test specified\" && exit 1",
+    "watch": "node-sass assignments/designer/src/scss/styles.scss assignments/designer/src/css/styles.css -w",
+    "compile": "node-sass assignments/designer/src/scss/styles.scss assignments/designer/src/css/styles.css",
+    "minify": "cleancss -o assignments/designer/src/css/styles.min.css assignments/designer/src/css/styles.css",
+    "prefix": "postcss assignments/designer/src/css/styles.css --use=autoprefixer --map=false --output=assignments/designer/src/css/styles.css",
+    "build": "npm run compile && npm run prefix && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megrymo/tnyint-technical-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "browserslist": "^4.21.3",
+    "clean-css-cli": "^5.6.1",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
+}
