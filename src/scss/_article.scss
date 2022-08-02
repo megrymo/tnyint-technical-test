@@ -1,0 +1,97 @@
+body {
+  background-image: url('../../src/assets/background.jpg');
+  background-size: contain;
+  color: $white;
+  background-color: $black;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.tny-logo {
+  display: block;
+  width: 175px;
+  height: auto;
+  margin: 12px auto 0;
+}
+.article__head,
+.article__body {
+  border: 1.5px solid $white;
+}
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.article__head {
+  width: 448px;
+  margin: 200px auto;
+  padding: ($grid-base * 6) 0 $lg-margin;
+}
+.rubric {
+  font-family: 'Irvin-Text';
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0px;
+}
+.article__head-line {
+  margin: $lg-margin auto $med-margin;
+}
+.article__head-line--big {
+  font-family: 'Irvin-Heading';
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+.article__head-line--small {
+  font-family: Irvin;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+.dek,
+.byline-timestamp {
+  margin: $med-margin auto;
+}
+.dek {
+  font-family: 'AdobeCaslonPro';
+  font-size: 24px;
+  font-style: italic;
+  line-height: 28px;
+  letter-spacing: 0px;
+  max-width: 342px;
+}
+.byline {
+  font-family: 'NeutrafaceNewYorkerWeb-SemiBold';
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0.4000000059604645px;
+  margin-bottom: 10px;
+}
+.timestamp {
+  font-family: 'Graphik';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+}
+.intro {
+  font-family: "Irvin-Heading";
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1px;
+}
+.share a {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+}
+.article__body {
+  padding: 100px;
+  max-width: 968px;
+  margin: 0 auto 200px;
+
+  p {
+    text-align: left;
+  }
+}
