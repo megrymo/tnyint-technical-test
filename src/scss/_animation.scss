@@ -1,0 +1,9 @@
+@keyframes rotate-left {
+  from {transform: rotate(-45deg);}
+  to {transform: rotate(0);}
+}
+
+@keyframes rotate-right {
+  from {transform: rotate(45deg);}
+  to {transform: rotate(0);}
+}

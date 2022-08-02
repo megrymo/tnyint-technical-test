@@ -1,0 +1,61 @@
+.opener {
+  width: 45em;
+  margin: 12.5rem auto;
+  padding: 3rem 2.25rem 2rem;
+}
+.opener__rubric {
+  font-family: 'Irvin-Text';
+  font-size: 1.5em;
+  line-height: 1.5rem;
+}
+.opener__hed {
+  margin: 2em auto 1.5rem;
+}
+.opener__hed--big {
+  font-family: 'Irvin-Heading';
+  font-size: 3em;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+.opener__hed--small {
+  font-family: Irvin;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+}
+.opener__dek,
+.opener__byline-timestamp {
+  margin: 1.5em auto;
+}
+.opener__dek {
+  font-family: 'AdobeCaslonPro';
+  font-size: 3em;
+  font-style: italic;
+  line-height: 1.75rem;
+}
+.opener__byline {
+  font-family: 'NeutrafaceNewYorkerWeb-SemiBold';
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+  margin-bottom: 10px;
+}
+.opener__timestamp {
+  font-family: 'Graphik';
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.opener__share a {
+  display: inline-flex;
+  width: 5.25em;
+  height: 5.25em;
+  align-items: center;
+  justify-content: center;
+  transition: .2s ease;
+
+  &:hover {
+    opacity: .7;
+  }
+}

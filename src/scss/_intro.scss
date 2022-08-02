@@ -1,0 +1,22 @@
+.intro__title {
+  font-family: "Irvin-Heading";
+  font-size: 1.75em;
+  line-height: 1.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 3.125rem;
+}
+.intro {
+  padding: 100px;
+  width: calc(75vw - 25em);
+  max-width: 96rem;
+  margin: 0 auto 25rem;
+
+  p {
+    margin: 2.5rem 0;
+    text-align: left;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+}
