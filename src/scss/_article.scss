@@ -1,55 +1,28 @@
-@import 'opener';
-@import 'intro';
+@import 'article/opener';
+@import 'article/intro';
+@import 'article/background';
 
-body {
-  background-image: url('../../src/assets/background.jpg');
-  background-size: contain;
-  color: $white;
-  background-color: $black;
-  background-repeat: no-repeat;
-  text-align: center;
-  font-size: 8px;
-
-  @media (max-width: $mobile) {
-    padding: 3rem;
-  }
-}
 .tny-logo {
   display: block;
   width: 175px;
   height: auto;
   margin: 1.5em auto 0;
+  @media (max-width: $mobile) {
+    display: none;
+  }
+}
+.article {
+  position: relative;
+  z-index: 40;
+  @media (max-width: $mobile) {
+    padding: 3rem;
+  }
 }
 .opener,
 .intro {
   border: 1.5px solid $white;
-
   @media (max-width: $mobile) {
-    width: 100vw;
+    border: none;
   }
 }
-.background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-.spotlight {
-  position: absolute;
-  top: 0;
-  z-index: 10;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 
-  &--right {
-    right: -2em;
-    animation-name: rotate-right;
-    transform-origin: bottom right;
-  }
-  &--left {
-    left: -2em;
-    animation-name: rotate-left;
-    transform-origin: bottom left;
-  }
-}

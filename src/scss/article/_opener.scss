@@ -1,10 +1,13 @@
 .opener {
-  width: 45em;
+  width: 44em;
   margin: 12.5rem auto;
-  padding: 3rem 2.25rem 2rem;
+  padding: 3rem 3rem 2rem;
+  @media (max-width: $mobile) {
+    display: none;
+  }
 }
 .opener__rubric {
-  font-family: 'Irvin-Text';
+  font-family: 'Irvin-Heading';
   font-size: 1.5em;
   line-height: 1.5rem;
 }
@@ -18,9 +21,8 @@
   letter-spacing: 1px;
 }
 .opener__hed--small {
-  font-family: Irvin;
+  font-family: 'Irvin-Heading';
   font-size: 1.5em;
-  font-weight: 400;
   line-height: 2.5rem;
   letter-spacing: 1px;
 }
@@ -29,9 +31,8 @@
   margin: 1.5em auto;
 }
 .opener__dek {
-  font-family: 'AdobeCaslonPro';
+  font-family: 'AdobeCaslonPro-Italic';
   font-size: 3em;
-  font-style: italic;
   line-height: 1.75rem;
 }
 .opener__byline {
@@ -42,20 +43,19 @@
   margin-bottom: 10px;
 }
 .opener__timestamp {
-  font-family: 'Graphik';
+  font-family: 'Graphik-Medium';
   font-size: 1.5em;
-  font-weight: 500;
   line-height: 1.5rem;
 }
-.opener__share a {
-  display: inline-flex;
-  width: 5.25em;
-  height: 5.25em;
-  align-items: center;
-  justify-content: center;
-  transition: .2s ease;
-
-  &:hover {
-    opacity: .7;
+.opener__share {
+  li {
+    display: inline-block;
+  }
+  a {
+    display: flex;
+    width: 5.25em;
+    height: 5.25em;
+    align-items: center;
+    justify-content: center;
   }
 }

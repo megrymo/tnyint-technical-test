@@ -1,0 +1,27 @@
+.clouds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.spotlight {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 94.5vw;
+  height: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  &--right {
+    right: -2em;
+    animation-name: rotate-right;
+    transform-origin: bottom right;
+  }
+  &--left {
+    left: -2em;
+    animation-name: rotate-left;
+    transform-origin: bottom left;
+  }
+}

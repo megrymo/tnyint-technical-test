@@ -1,6 +1,21 @@
 body {
+  color: $white;
+  background-color: $black;
+  text-align: center;
+  font-size: 8px;
   margin: 0;
 }
 a {
+  color: $white;
   text-decoration: none;
+  transition: .2s ease;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
