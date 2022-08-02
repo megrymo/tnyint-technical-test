@@ -12,6 +12,9 @@
     background: url(../../src/assets/mobile/gradient.jpg) top center no-repeat;
     background-size: cover;
   }
+  @media (max-width: 375px) {
+    background-size: contain;
+  }
 }
 .background__cloud {
   position: absolute;
@@ -88,10 +91,8 @@
     height: auto;
   }
   @media (max-width: $mobile) {
-    top: 56px;
-    animation-name: rotate-right--mobile;
     img {
-      width: (286 / 375) * 100%;
+      width: auto;
     }
   }
   &--right {
@@ -100,7 +101,8 @@
     animation-name: rotate-right;
     transform-origin: bottom right;
     @media (max-width: $mobile) {
-      right: -300px;
+      right: -360px;
+      animation-name: rotate-right--mobile;
     }
   }
   &--left {
@@ -108,7 +110,7 @@
     animation-name: rotate-left;
     transform-origin: bottom left;
     @media (max-width: $mobile) {
-      left: -300px;
+      left: -360px;
       animation-name: rotate-left--mobile;
     }
   }
