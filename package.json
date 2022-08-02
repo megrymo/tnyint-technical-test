@@ -4,10 +4,10 @@
   "description": "technical test for the new yorker interactive team",
   "scripts": {
     "test": "echo \"error no test specified\" && exit 1",
-    "watch": "node-sass assignments/designer/src/scss/styles.scss assignments/designer/src/css/styles.css -w",
-    "compile": "node-sass assignments/designer/src/scss/styles.scss assignments/designer/src/css/styles.css",
-    "minify": "cleancss -o assignments/designer/src/css/styles.min.css assignments/designer/src/css/styles.css",
-    "prefix": "postcss assignments/designer/src/css/styles.css --use=autoprefixer --map=false --output=assignments/designer/src/css/styles.css",
+    "watch": "node-sass src/scss/styles.scss build/css/styles.css -w",
+    "compile": "node-sass src/scss/styles.scss build/css/styles.css",
+    "minify": "cleancss -o src/css/styles.min.css build/css/styles.css",
+    "prefix": "postcss build/css/styles.css --use=autoprefixer --map=false --output=build/css/styles.css",
     "build": "npm run compile && npm run prefix && npm run minify"
   },
   "repository": {
