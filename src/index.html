@@ -2,37 +2,96 @@
 <html>
   <head>
     <title>The Art of the Hollywood Memoir</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
     <link rel="stylesheet" href="../build/css/styles.css">
   </head>
   <body>
-    <img src="assets/background.jpg"
-      class="clouds"
-      alt="peach clouds in a twilight sky"
-      width="1280"
-      height="1563"
-    />
-    <img src="assets/spotlight-left.png"
-      class="spotlight spotlight--left"
-      alt="lefthand spotlight"
-      width="1210"
-      height="1539"
-    />
-    <img src="assets/spotlight-right.png"
-      class="spotlight spotlight--right"
-      alt="righthand spotlight"
-      width="1210"
-      height="1539"
-    />
+    <div class="background__container">
+      <picture class="background__cloud background__cloud--1">
+        <source media="(max-width: 750px)"
+          width="317"
+          height="223"
+          srcset="assets/mobile/cloud1.png"
+        />
+        <img src="assets/cloud1.png"
+          alt="peach-colored cloud"
+          width="945"
+          height="590"
+        />
+      </picture>
+      <picture class="background__cloud background__cloud--2">
+        <source media="(max-width: 750px)"
+          width="112"
+          height="79"
+          srcset="assets/mobile/cloud2.png"
+        />
+        <img src="assets/cloud2.png"
+          alt="peach-colored cloud"
+          width="592"
+          height="272"
+        />
+      </picture>
+      <picture class="background__cloud background__cloud--3">
+        <source media="(max-width: 750px)"
+          width="112"
+          height="79"
+          srcset="assets/mobile/cloud3.png"
+        />
+        <img src="assets/cloud3.png"
+          alt="peach-colored cloud"
+          width="434"
+          height="282"
+        />
+      </picture>
+      <img src="assets/mobile/cloud4.png"
+        class="background__cloud background__cloud--4 mobile-only"
+        alt="peach-colored cloud"
+        width="254"
+        height="100"
+      />
+      <img src="assets/mobile/cloud5.png"
+        class="background__cloud background__cloud--5 mobile-only"
+        alt="peach-colored cloud"
+        width="158"
+        height="71"
+      />
+      <div class="background__spotlights">
+        <picture class="background__spotlight background__spotlight--left">
+          <source media="(max-width: 750px)"
+            width="914"
+            height="1130"
+            srcset="assets/mobile/spotlight-left.png"
+          />
+          <img src="assets/spotlight-left.png"
+            alt="lefthand spotlight"
+            width="1210"
+            height="1539"
+          />
+        </picture>
+        <picture class="background__spotlight background__spotlight--right">
+          <source media="(max-width: 750px)"
+            width="914"
+            height="1130"
+            srcset="assets/mobile/spotlight-right.png"
+          />
+          <img src="assets/spotlight-right.png"
+            alt="righthand spotlight"
+            width="1210"
+            height="1539"
+          />
+        </picture>
+      </div>
+    </div>
     <article class="article">
       <a href="https://www.newyorker.com/">
-        <img class="tny-logo"
+        <img class="tny-logo desktop-only"
           src="assets/logo/tny_logo.svg"
           alt="The New Yorker logo"
           width="175"
           height="40.617"
         />
       </a>
-      <header class="opener">
+      <header class="opener desktop-only">
         <div class="opener__rubric">Page Turner</div>
         <h1 div class="opener__hed">
           <div class="opener__hed--big">The Art</div>
@@ -73,14 +132,14 @@
           My romance with Hollywood memoirs began in my early twenties, when I was new to New York and would spend most Sunday afternoons wandering the aisles of the Strand bookstore. The &ldquo;Film and Television&rdquo; section was a kaleidoscope of out-of-print treasures, and I found that their contents were even more outrageous and entertaining than the hammy portraits on their covers.
         </p>
         <p>
-          The Hollywood memoir is a perfect genre for summertime, when your mind is as gooey and malleable as a slice of American cheese, because it demands that you be willing to suspend your disbelief and indulge in dazzling lies. After all, that is what many Hollywood memoirs are&mdash;at least, it is what they were, before the modern era of public accountability and stroke-of-the-keyboard fact-checking. The sooner you accept that star stories are full of embellishments and omissions, invented quotes and one-sided recollections dictacted to patient ghostwriters, the sooner you’ll come to appreciate them as the grand and eccentric performances that they are.
+          The Hollywood memoir is a perfect genre for summertime, when your mind is as gooey and malleable as a slice of American cheese, because it demands that you be willing to suspend your disbelief and indulge in dazzling lies. After all, that is what many Hollywood memoirs are&mdash;at least, it is what they were, before the modern era of public accountability and stroke-of-the-keyboard fact-checking. The sooner you accept that star stories are full of embellishments and omissions, invented quotes and one-sided recollections dictacted to patient ghostwriters, the sooner you&rsquo;ll come to appreciate them as the grand and eccentric performances that they are.
         </p>
         <p>
-          Often, though, these books reveal as much as they hide. Autobiography was for a long time the best outlet stars had to talk openly about misogyny, racism, ageism, abuse, and other hideous aspects of life in Hollywood that the industry would rather ignore. The list compiled here is by no means exhaustive; it’s not a best-of but a starter pack of sorts. (Confession: I’ve left out men altogether, though many, including David Niven and Sammy Davis, Jr., have produced wonderful show-biz memoirs.) Some of the books here feel dated and, at times, maddening; at least one is completely bonkers. But all are dynamic artifacts that chart how the movie business has evolved over time and how far it still has to go.
+          Often, though, these books reveal as much as they hide. Autobiography was for a long time the best outlet stars had to talk openly about misogyny, racism, ageism, abuse, and other hideous aspects of life in Hollywood that the industry would rather ignore. The list compiled here is by no means exhaustive; it&rsquo;s not a best-of but a starter pack of sorts. (Confession: I&rsquo;ve left out men altogether, though many, including David Niven and Sammy Davis, Jr., have produced wonderful show-biz memoirs.) Some of the books here feel dated and, at times, maddening; at least one is completely bonkers. But all are dynamic artifacts that chart how the movie business has evolved over time and how far it still has to go.
         </p>
         <p>
           I should note that several of the books are out of print and require some
-          hunting to find&mdash;but that’s half the fun. Go to a used bookstore and check the biography and memoir shelves. These exact Hollywood memoirs may not be there, but dozens of others will be. Lug a few home. And then, on a sweltering day, pick one up and give yourself over.
+          hunting to find&mdash;but that&rsquo;s half the fun. Go to a used bookstore and check the biography and memoir shelves. These exact Hollywood memoirs may not be there, but dozens of others will be. Lug a few home. And then, on a sweltering day, pick one up and give yourself over.
         </p>
       </section>
     </article>

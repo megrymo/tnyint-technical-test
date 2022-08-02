@@ -8,3 +8,13 @@
   clip: rect(0,0,0,0);
   border: 0;
 }
+.desktop-only {
+  @media (max-width: $mobile) {
+    display: none;
+  }
+}
+.mobile-only {
+  @media (min-width: $mobile) {
+    display: none;
+  }
+}

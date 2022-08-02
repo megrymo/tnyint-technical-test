@@ -3,19 +3,15 @@
 @import 'article/background';
 
 .tny-logo {
-  display: block;
   width: 175px;
   height: auto;
-  margin: 1.5em auto 0;
-  @media (max-width: $mobile) {
-    display: none;
-  }
+  padding-top: 1.5em;
 }
 .article {
   position: relative;
   z-index: 40;
   @media (max-width: $mobile) {
-    padding: 3rem;
+    padding: 2rem;
   }
 }
 .opener,

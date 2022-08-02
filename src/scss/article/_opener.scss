@@ -2,9 +2,6 @@
   width: 44em;
   margin: 12.5rem auto;
   padding: 3rem 3rem 2rem;
-  @media (max-width: $mobile) {
-    display: none;
-  }
 }
 .opener__rubric {
   font-family: 'Irvin-Heading';
