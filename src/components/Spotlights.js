@@ -6,9 +6,9 @@ const Spotlights = () => {
         <source media="(max-width: 750px)"
           width="914"
           height="1130"
-          srcSet={`${process.env.PUBLIC_URL}/images/mobile/spotlight-left.png`}
+          srcSet='./images/mobile/spotlight-left.png'
         />
-        <img src={`${process.env.PUBLIC_URL}/images/spotlight-left.png`}
+        <img src='./images/spotlight-left.png'
           alt="lefthand spotlight"
           width="1210"
           height="1539"
@@ -18,9 +18,9 @@ const Spotlights = () => {
         <source media="(max-width: 750px)"
           width="914"
           height="1130"
-          srcSet={`${process.env.PUBLIC_URL}/images/mobile/spotlight-right.png`}
+          srcSet='./images/mobile/spotlight-right.png'
         />
-        <img src={`${process.env.PUBLIC_URL}/images/spotlight-right.png`}
+        <img src='./images/spotlight-right.png'
           alt="righthand spotlight"
           width="1210"
           height="1539"
