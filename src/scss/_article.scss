@@ -2,10 +2,16 @@
 @import 'article/intro';
 @import 'article/background';
 
-.tny-logo {
-  width: 175px;
-  height: auto;
+.tny-link {
+  display: block;
   padding-top: 1.5em;
+  svg {
+    width: 175px;
+    height: auto;
+  }
+  @media (max-width: $mobile) {
+    display: none;
+  }
 }
 .article {
   position: relative;
