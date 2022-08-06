@@ -1,5 +1,6 @@
 import React from 'react';
-import Spotlights from './Spotlights'
+import Spotlights from './Spotlights';
+import Stars from './Stars';
 
 const Background = () => {
   return (
@@ -31,11 +32,7 @@ const Background = () => {
         width="158"
         height="71"
       />
-      <img className="background__stars"
-        src='./images/stars.png'
-        srcSet='./images/mobile/stars.png 750w ./images/stars.png 1280w'
-        alt="peach-colored cloud"
-      />
+      <Stars />
       <Spotlights />
     </div>
   )

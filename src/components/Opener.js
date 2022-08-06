@@ -1,7 +1,7 @@
 import React from 'react';
-import FacebookIcon from './icons/FacebookIcon';
-import MailIcon from './icons/MailIcon';
-import TwitterIcon from './icons/TwitterIcon';
+import FacebookIcon from './logos/FacebookIcon';
+import MailIcon from './logos/MailIcon';
+import TwitterIcon from './logos/TwitterIcon';
 
 const Opener = () => {
   return (

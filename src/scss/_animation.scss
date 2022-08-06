@@ -17,3 +17,26 @@
   from {transform: rotate(35deg);}
   to {transform: rotate(0);}
 }
+
+@keyframes twinkleOne {
+  from {opacity: 1;}
+  4% {opacity : 1;}
+  8% {opacity : 0;}
+  12% {opacity : 1;}
+}
+
+@keyframes twinkleTwo {
+  from {opacity: 1;}
+  36% {opacity : 1;}
+  40% {opacity : 0;}
+  44% {opacity : 1;}
+}
+
+@keyframes twinkleThree {
+  from {opacity: 1;}
+  80% {opacity : 1;}
+  86% {opacity : 0;}
+  92% {opacity : 1;}
+  96% {opacity : 0;}
+  100% {opacity : 1;}
+}

@@ -1,0 +1,59 @@
+.background__star {
+  position: absolute;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+  &-container {
+    position: absolute;
+    z-index: 10;
+    width: 1280px;
+    height: 1564px;
+  }
+  &--0 {
+    top: calc((543 / 1280) * 100%);
+    left: calc((29 / 1280) * 100%);
+    animation-name: twinkleOne;
+    animation-duration: 5s;
+  }
+  &--1 {
+    top: calc((590 / 1280) * 100%);
+    left: calc((123 / 1280) * 100%);
+    animation-name: twinkleTwo;
+    animation-duration: 4s;
+  }
+  &--2 {
+    top: calc((74 / 1280) * 100%);
+    left: calc((640 / 1280) * 100%);
+    animation-name: twinkleOne;
+    animation-delay: 3s;
+    animation-duration: 7s;
+  }
+  &--3 {
+    top: calc((222 / 1280) * 100%);
+    right: calc((44 / 1280) * 100%);
+    animation-name: twinkleThree;
+    animation-delay: 2s;
+    animation-duration: 5s;
+  }
+  &--4 {
+    top: calc((117 / 1280) * 100%);
+    left: calc((607 / 1280) * 100%);
+    animation-name: twinkleTwo;
+    animation-delay: 2s;
+    animation-duration: 4s;
+  }
+  &--5 {
+    top: calc((206 / 1280) * 100%);
+    left: calc((557 / 1280) * 100%);
+    animation-name: twinkleOne;
+    animation-delay: 4s;
+    animation-duration: 4s;
+  }
+  &--6 {
+    top: calc((555 / 1280) * 100%);
+    right: calc((217 / 1280) * 100%);
+    animation-name: twinkleThree;
+    animation-delay: 1s;
+    animation-duration: 4s;
+  }
+}
