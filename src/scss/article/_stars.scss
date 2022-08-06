@@ -2,24 +2,37 @@
   position: absolute;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-
+  width: 50px;
+  height: 50px;
   &-container {
     position: absolute;
     z-index: 10;
     width: 1280px;
     height: 1564px;
+    @media (max-width: $mobile) {
+      width: 100%;
+      height: 963px;
+    }
   }
   &--0 {
     top: calc((543 / 1280) * 100%);
     left: calc((29 / 1280) * 100%);
     animation-name: twinkleOne;
     animation-duration: 5s;
+    @media (max-width: $mobile) {
+      top: calc((150 / 375) * 100%);
+      left: calc((10 / 375) * 100%);
+    }
   }
   &--1 {
     top: calc((590 / 1280) * 100%);
     left: calc((123 / 1280) * 100%);
     animation-name: twinkleTwo;
     animation-duration: 4s;
+    @media (max-width: $mobile) {
+      top: calc((200 / 375) * 100%);
+      left: calc((30 / 375) * 100%);
+    }
   }
   &--2 {
     top: calc((74 / 1280) * 100%);
@@ -27,6 +40,9 @@
     animation-name: twinkleOne;
     animation-delay: 3s;
     animation-duration: 7s;
+    @media (max-width: $mobile) {
+      display: none;
+    }
   }
   &--3 {
     top: calc((222 / 1280) * 100%);
@@ -34,6 +50,10 @@
     animation-name: twinkleThree;
     animation-delay: 2s;
     animation-duration: 5s;
+    @media (max-width: $mobile) {
+      top: calc((60 / 375) * 100%);
+      right: calc((11 / 375) * 100%);
+    }
   }
   &--4 {
     top: calc((117 / 1280) * 100%);
@@ -41,6 +61,10 @@
     animation-name: twinkleTwo;
     animation-delay: 2s;
     animation-duration: 4s;
+    @media (max-width: $mobile) {
+      top: calc((40 / 375) * 100%);
+      left: calc((200 / 375) * 100%);
+    }
   }
   &--5 {
     top: calc((206 / 1280) * 100%);
@@ -48,6 +72,10 @@
     animation-name: twinkleOne;
     animation-delay: 4s;
     animation-duration: 4s;
+    @media (max-width: $mobile) {
+      top: calc((66 / 375) * 100%);
+      left: calc((200 / 375) * 100%);
+    }
   }
   &--6 {
     top: calc((555 / 1280) * 100%);
@@ -55,5 +83,9 @@
     animation-name: twinkleThree;
     animation-delay: 1s;
     animation-duration: 4s;
+    @media (max-width: $mobile) {
+      top: calc((130 / 1280) * 100%);
+      right: calc((66 / 1280) * 100%);
+    }
   }
 }
