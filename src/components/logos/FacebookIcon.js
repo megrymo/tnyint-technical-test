@@ -1,7 +1,6 @@
 import React from 'react';
 
-const FacebookIcon = () => {
-  return (
+const FacebookIcon = () => (
     <svg
       width="10px"
       height="18px"
@@ -9,6 +8,6 @@ const FacebookIcon = () => {
       xmlns="http://www.w3.org/2000/svg">
         <path fill="#ffffff" d="M13.3165,20.5 L13.3165,12.746 L15.9185,12.746 L16.3085,9.723 L13.3165,9.723 L13.3165,7.794 C13.3165,6.919 13.5585,6.323 14.8145,6.323 L16.4135,6.322 L16.4135,3.618 C16.1375,3.582 15.1875,3.5 14.0825,3.5 C11.7755,3.5 10.1955,4.908 10.1955,7.494 L10.1955,9.723 L7.5865,9.723 L7.5865,12.746 L10.1955,12.746 L10.1955,20.5 L13.3165,20.5 Z"></path>
     </svg>
-  )
-}
+);
+
 export default FacebookIcon;
