@@ -5,7 +5,9 @@ import TwitterIcon from './logos/TwitterIcon';
 
 const Opener = () => (
   <header className="opener desktop-only">
-    <div className="opener__rubric">Page Turner</div>
+    <a href="https://www.newyorker.com/books/page-turner" className="opener__rubric">
+      Page Turner
+    </a>
     <h1 div className="opener__hed">
       <div className="opener__hed--big">The Art</div>
       <div className="opener__hed--small">of the</div>
